@@ -1,4 +1,4 @@
-# 📊 Causal Media/Marketing App
+# Causal Media/Marketing App
 
 > **A Streamlit web application for causal inference in media and marketing using DoWhy**
 
@@ -11,9 +11,9 @@ Perform rigorous causal effect estimation on your marketing data to understand t
 
 ---
 
-## 🎯 Features
+## Features
 
-### 🔬 **Causal Inference Pipeline**
+### Causal Inference Pipeline
 - **Model**: Define causal relationships with directed acyclic graphs (DAGs)
 - **Identify**: Automatically identify causal estimands using backdoor adjustment
 - **Estimate**: Multiple estimation methods:
@@ -23,7 +23,7 @@ Perform rigorous causal effect estimation on your marketing data to understand t
   - Inverse probability weighting (IPW)
 - **Refute**: Robustness checks with multiple refutation tests
 
-### 📈 **Data Sources**
+### Data Sources
 - **CSV Upload**: Drag and drop your own data files
 - **Google Sheets**: Direct integration with shared Google Sheets links
 - **Synthetic Data Generator**: Built-in generator for testing and learning
@@ -31,20 +31,20 @@ Perform rigorous causal effect estimation on your marketing data to understand t
   - Realistic confounders (seasonality, price)
   - Adjustable noise levels and sample sizes
 
-### 📊 **Visualizations**
+### Visualizations
 - Interactive causal graphs showing variable relationships
 - Response curves (linear and non-parametric LOWESS)
 - Treatment effect estimates with confidence intervals
 - Distribution plots for exploratory data analysis
 
-### 🔍 **Robustness Testing**
+### Robustness Testing
 - Random common cause refutation
 - Placebo treatment tests
 - Data subset validation
 - Bootstrap resampling
 - Sensitivity analysis across multiple estimators
 
-### 💡 **Educational Features**
+### Educational Features
 - Contextual help explaining causal concepts
 - Interpretation guides for all results
 - Interactive parameter selection with tooltips
@@ -52,7 +52,7 @@ Perform rigorous causal effect estimation on your marketing data to understand t
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -116,7 +116,7 @@ The app will open in your default browser at `http://localhost:8501`
 
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### 1. **Setup Tab: Load Your Data**
 
@@ -193,7 +193,7 @@ Navigate through the tabs:
 
 ---
 
-## 🧪 Example: Marketing Mix Analysis
+## Example: Marketing Mix Analysis
 
 ```python
 # Sample synthetic data generation
@@ -218,7 +218,7 @@ Results interpretation:
 
 ---
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Architecture
 
@@ -258,7 +258,7 @@ The app implements the **DoWhy framework**:
 
 ---
 
-## 📚 Understanding Causal Inference
+## Understanding Causal Inference
 
 ### Why Not Just Use Correlation?
 
@@ -294,7 +294,7 @@ C → T → Y
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Areas for enhancement:
 
@@ -329,13 +329,13 @@ streamlit run app.py
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **[DoWhy](https://github.com/py-why/dowhy)**: Microsoft Research's causal inference library
 - **[PyWhy](https://www.pywhy.org/)**: Community for causal inference in Python
@@ -345,7 +345,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 - **Issues**: [GitHub Issues](https://github.com/missionfromdog/causalapp/issues)
 - **GitHub**: [github.com/missionfromdog/causalapp](https://github.com/missionfromdog/causalapp)
@@ -354,7 +354,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📊 Resources for Learning Causal Inference
+## Resources for Learning Causal Inference
 
 ### Books
 - Pearl, J., Glymour, M., & Jewell, N. P. (2016). *Causal inference in statistics: A primer*
@@ -371,7 +371,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🔄 Version History
+## Version History
 
 See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
@@ -384,7 +384,7 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -415,7 +415,7 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
 ---
 
-## 🎓 Use Cases
+## Use Cases
 
 This tool is useful for:
 
@@ -439,6 +439,6 @@ This tool is useful for:
 
 ---
 
-**Built with ❤️ using Python, Streamlit, and DoWhy**
+**Built using Python, Streamlit, and DoWhy**
 
-*Star ⭐ this repo if you find it useful!*
+Star this repo if you find it useful!
