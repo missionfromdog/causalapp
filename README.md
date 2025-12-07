@@ -2,7 +2,7 @@
 
 > **A Streamlit web application for causal inference in media and marketing using DoWhy**
 
-Perform rigorous causal effect estimation on your marketing data to understand the true impact of your media channels on sales and conversions. This tool helps you move beyond correlations to identify actual causal relationships using state-of-the-art causal inference methods.
+More vibe coding and learning with an implementation of DoWhy causal package.  Perform rigorous causal effect estimation on your marketing data to understand the true impact of your media channels on sales and conversions. This tool helps you move beyond correlations to identify actual causal relationships using state-of-the-art causal inference methods.
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.39+-red.svg)](https://streamlit.io)
